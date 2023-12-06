@@ -1,7 +1,7 @@
 public class homework_3 {
     public static void main(String[] args) {
 
-        // Домашнее задание №3 1
+        // Домашнее задание №3
         String flowersName = "Roses ";
         String flowersNumber = "101";
         System.out.println(flowersName + flowersNumber);
@@ -20,42 +20,40 @@ public class homework_3 {
         System.out.println(n);
 
         // 2
-        System.out.println("--------------");
         double jDouble;
         jDouble = 27.8;
         System.out.println("значение: " + jDouble);
         jDouble = 31.1;
         System.out.println("new: " + jDouble);
 
-        double Pi = 3.14;
-        double Gravity = 9.8;
-        String Home = "Кызылорда";
-        System.out.println("Значение ПИ: " + Pi);
-        System.out.println("Значение гравитации: " + Gravity);
-        System.out.println("Мой Родной Город: " + Home);
+        double pi = 3.14;
+        double gravity = 9.8;
+        String home = "Кызылорда";
+        System.out.println("Значение ПИ: " + pi);
+        System.out.println("Значение гравитации: " + gravity);
+        System.out.println("Мой Родной Город: " + home);
 
-        byte Byte = 1;
-        short Short = 100;
-        int Int = 100000;
-        long Long = 1000000001;
-        double Double = 3.14;
-        float Float = 3.14F;
-        boolean Boolean = true;
-        char Char = 'A';
-        String String = "ZXC";
+        byte byteVariable = 1;
+        short shortVariable = 100;
+        int intVariable = 100000;
+        long longVariable = 1000000001;
+        double doubleVariable = 3.14;
+        float floatVariable = 3.14F;
+        boolean booleanVariable = true;
+        char charVariable = 'A';
+        String stringVariable = "ZXC";
 
-        System.out.println("byte: " + Byte);
-        System.out.println("short: " + Short);
-        System.out.println("int: " + Int);
-        System.out.println("long: " + Long);
-        System.out.println("double: " + Double);
-        System.out.println("float: " + Float);
-        System.out.println("boolean: " + Boolean);
-        System.out.println("char: " + Char);
-        System.out.println("String: " + String);
+        System.out.println("byte: " + byteVariable);
+        System.out.println("short: " + shortVariable);
+        System.out.println("int: " + intVariable);
+        System.out.println("long: " + longVariable);
+        System.out.println("double: " + doubleVariable);
+        System.out.println("float: " + floatVariable);
+        System.out.println("boolean: " + booleanVariable);
+        System.out.println("char: " + charVariable);
+        System.out.println("String: " + stringVariable);
 
         // 3
-        System.out.println("--------------");
 
         /*int intValue = 100;
         long longValue = intValue;
